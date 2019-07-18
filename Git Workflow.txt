@@ -1,0 +1,9 @@
+\Dev1-Repository\
+ git branch
+ git add .
+ git commit -m "added a note"
+ git push -u origin isolated-test-branch
+ git checkout master
+ git pull
+ git pull origin isolated-test-branch
+ git push
